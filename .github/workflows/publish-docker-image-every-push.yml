@@ -141,7 +141,7 @@ jobs:
           secrets: |
             ci/data/dev/github token | WORKFLOW_TRIGGER_TOKEN ;
       - name: Trigger deploy
-        uses: convictional/trigger-workflow-and-wait@v1.6.1
+        uses: convictional/trigger-workflow-and-wait@v1.6.5
         with:
           owner: blockscout
           repo: deployment-values
