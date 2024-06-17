@@ -102,7 +102,7 @@ defmodule BlockScoutWeb.Mixfile do
       {:exvcr, "~> 0.10", only: :test},
       {:file_info, "~> 0.0.4"},
       # HTML CSS selectors for Phoenix controller tests
-      {:floki, "~> 0.31"},
+      {:floki, "~> 0.36"},
       {:flow, "~> 1.2"},
       {:gettext, "~> 0.24.0"},
       {:hammer, "~> 6.0"},
