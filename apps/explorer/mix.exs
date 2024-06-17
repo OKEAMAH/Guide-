@@ -80,7 +80,7 @@ defmodule Explorer.Mixfile do
       {:ethereum_jsonrpc, in_umbrella: true},
       # Data factory for testing
       {:ex_machina, "~> 2.3", only: [:test]},
-      {:exvcr, "~> 0.10", only: :test},
+      {:exvcr, "~> 0.15", only: :test},
       {:httpoison, "~> 2.0"},
       {:jason, "~> 1.3"},
       {:junit_formatter, ">= 0.0.0", only: [:test], runtime: false},
